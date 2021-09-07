@@ -46,7 +46,14 @@
     align-items: center;
     margin: auto;
   }
-  
+   nav .navbar .logo a{
+    font-weight: 500;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+  }
+  nav.sticky .navbar .logo a{
+    color: #fff;
+  }
   nav .navbar .menu{
     display: flex;
     position: relative;
