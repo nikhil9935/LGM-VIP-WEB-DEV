@@ -46,14 +46,7 @@
     align-items: center;
     margin: auto;
   }
-  nav .navbar .logo a{
-    font-weight: 500;
-    font-size: 50px;
-    color: rgb(0, 0, 0);
-  }
-  nav.sticky .navbar .logo a{
-    color: #fff;
-  }
+  
   nav .navbar .menu{
     display: flex;
     position: relative;
@@ -78,14 +71,7 @@
   nav.sticky .menu a:hover{
     color: #0E2431;
   }
-  .navbar .media-icons a{
-    color: #4070f4;
-    font-size: 18px;
-    margin: 0 6px;
-  }
-  nav.sticky .media-icons a{
-    color: #FFF;
-  }
+  
   
   /* Side Navigation Menu Button CSS */
 
