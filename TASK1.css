@@ -210,12 +210,8 @@
   .about .about-details .left{
     width: 45%;
   }
-  .about .left img{
-    height: 400px;
-    width: 400px;
-    object-fit: cover;
-    border-radius: 12px;
-  }
+  
+  
   .about-details .right{
     width: 55%;
   }
