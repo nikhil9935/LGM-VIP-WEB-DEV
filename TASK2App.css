@@ -1,0 +1,77 @@
+/Avoid Default Styling By Browsers/
+
+*{
+  margin:0%;
+  padding:0%;
+}
+
+/Applying CSS on nav/
+
+.nav-section{
+  font-family:Arial, Helvetica, sans-serif;
+  color:rgb(235, 250, 215);
+  padding-top:20px;
+  height:70px;
+  padding:20px;
+  background-color:gray;
+}
+h1{
+  float:left;
+  color:black;
+  margin-left: 20px;
+  font-size: 50px;
+}
+h1:hover{
+  color:rebeccapurple;
+  font-size:60px;
+}
+.button{
+  float:right;
+  padding:10px;
+  background-color:red;
+  border-radius:5px;
+  cursor:pointer;
+  margin-right: 30px;
+  border: .1rem solid rgba(230, 31, 31, 0.2);
+}
+.button:hover{
+  background-color: rgb(94, 63, 205);
+}
+.horizental-section{
+  margin:32px;
+}
+.vertical-section{
+  float:left;
+  width:25%;
+  padding:10 10px;
+  margin: 20px;
+}
+
+/Applying CSS on cards/
+
+.card{
+  background-color:rgb(231, 235, 247);
+  text-align:center;
+  padding:30px;
+}
+.card-name-section {
+    font-family:"Cursive";
+    font-size: 2rem;
+  }
+  .card:hover{
+    cursor: pointer;
+    background-color:rgb(180, 140, 231);
+  }
+  .card:hover .card-emailtext{
+color: rgb(26, 7, 18);
+  }
+  .emailtext {
+    font-size:1.2rem;
+    color: rgb(27, 22, 26);
+    font-family: 'Italic';
+  }
+  .imgs{
+    height: 10%;
+    width: 80%;
+    border-radius: 25px;
+  }
